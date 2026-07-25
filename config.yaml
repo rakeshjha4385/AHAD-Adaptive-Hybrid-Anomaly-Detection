@@ -1,0 +1,33 @@
+project:
+
+  name: AHAD
+
+  version: 1.0
+
+dataset:
+
+  path: data/raw/
+
+  type: timeseries
+
+  file_name: ec2_cpu_utilization.csv
+
+  timestamp_column: timestamp
+
+  target_column: label
+
+preprocessing:
+
+  scaling: standard
+
+logging:
+
+  log_path: logs/
+
+outputs:
+
+  report_path: outputs/
+
+plots:
+
+  dpi: 300

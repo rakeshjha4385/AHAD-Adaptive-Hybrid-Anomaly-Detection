@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Project data (keep source code, ignore heavy local datasets)
+data/raw/
+data/processed/
+
+# Generated artifacts
+logs/
+outputs/
+results/
